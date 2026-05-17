@@ -17,6 +17,24 @@ Current direction: production-grade AI infrastructure, human-in-the-loop automat
 
 ---
 
+## Featured proof
+
+### [agent-runner-control-plane](https://github.com/itsrobmack/agent-runner-control-plane)
+
+A small Bun/TypeScript control-plane skeleton for AI agent runs, tool calls, approval checkpoints, and audit logs.
+
+It models the infrastructure layer AI workflows need before touching real systems: tool registries, policy checks, run state, high-risk approval gates, and auditable transitions.
+
+```bash
+bun install
+bun test
+bun start
+```
+
+Why it matters: production AI is not just prompts. It is permissions, state, reliability, rollback, review, and operational visibility.
+
+---
+
 ## Current proof
 
 - **Skewuo** — AI systems, automation, and workflow infrastructure portfolio: [skewuo.com](https://skewuo.com)
@@ -39,7 +57,7 @@ Current direction: production-grade AI infrastructure, human-in-the-loop automat
 
 ## Tools and systems
 
-`Kubernetes` · `RKE2` · `GitOps` · `CI/CD` · `Linux` · `Terraform` · `Ansible` · `AWS` · `Bash` · `Python` · `Go` · `Bazel` · `Jenkins` · `Docker` · `PostgreSQL` · `Node.js` · `AI workflow orchestration`
+`Kubernetes` · `RKE2` · `GitOps` · `CI/CD` · `Linux` · `Terraform` · `Ansible` · `AWS` · `Bash` · `Python` · `Go` · `TypeScript` · `Bun` · `Bazel` · `Jenkins` · `Docker` · `PostgreSQL` · `Node.js` · `AI workflow orchestration`
 
 ---
 
