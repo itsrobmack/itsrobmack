@@ -31,6 +31,13 @@ A production-style MCP gateway skeleton for governed AI agent tools, role and sc
 
 It shows the layer between agent tool use and real company systems: connector ownership, access checks, high-risk review, and auditable execution.
 
+
+### Private flagship work
+
+I have also been building a private AI systems runtime around event driven orchestration, durable mission graphs, memory routing, worker delegation, validation gates, repair loops, approvals, and evidence backed completion.
+
+The public repos above are smaller inspectable slices of the same platform direction.
+
 ```bash
 bun install
 bun test
