@@ -34,9 +34,9 @@ It shows the layer between agent tool use and real company systems: connector ow
 
 ### Private flagship work
 
-I have also been building a private AI systems runtime around event driven orchestration, durable mission graphs, memory routing, worker delegation, validation gates, repair loops, approvals, and evidence backed completion.
+I have also been building Hyper, a private AI systems runtime around event driven orchestration, durable mission graphs, memory routing, worker delegation, validation gates, repair loops, approvals, and evidence backed completion.
 
-The public repos above are smaller inspectable slices of the same platform direction.
+Core is PID1 of Hyper. PID2 is a simpler experimental AI agent harness. The public repos above are smaller inspectable slices of the same platform direction.
 
 ```bash
 bun install
