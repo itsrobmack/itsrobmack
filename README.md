@@ -25,6 +25,12 @@ A small Bun/TypeScript control-plane skeleton for AI agent runs, tool calls, app
 
 It models the infrastructure layer AI workflows need before touching real systems: tool registries, policy checks, run state, high-risk approval gates, and auditable transitions.
 
+### [mcp-ops-gateway](https://github.com/itsrobmack/mcp-ops-gateway)
+
+A production-style MCP gateway skeleton for governed AI agent tools, role and scope policy, approval gates, audit logs, and enterprise connector boundaries.
+
+It shows the layer between agent tool use and real company systems: connector ownership, access checks, high-risk review, and auditable execution.
+
 ```bash
 bun install
 bun test
