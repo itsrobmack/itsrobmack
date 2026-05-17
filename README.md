@@ -2,19 +2,19 @@
 
 **AI Systems / Platform Engineer** building the infrastructure layer between AI ideas and production execution.
 
-I work across Kubernetes, GitOps, CI/CD, Linux, realtime voice APIs, reliability, automation, and agent-assisted workflows. My background spans defense, autonomous vehicle, government-adjacent, and cybersecurity environments where secure delivery, traceability, uptime, and operational clarity mattered.
+I work across Kubernetes, GitOps, CI and CD, Linux, realtime voice APIs, reliability, automation, and agent-assisted workflows. My background spans defense, autonomous vehicle, government-adjacent, and cybersecurity environments where secure delivery, traceability, uptime, and operational clarity mattered.
 
-Current direction: production-grade AI infrastructure, realtime voice agents, human-in-the-loop automation, agent workflow systems, and platform tooling that makes AI useful outside of demos.
+Current direction: production grade AI infrastructure, realtime voice agents, human reviewed automation, agent workflow systems, and platform tooling that makes AI useful outside of demos.
 
 ---
 
 ## What I build
 
 - **AI workflow infrastructure** — intent intake, tool execution, memory/context, review gates, and recoverable automation paths.
-- **Realtime voice AI** — custom WebSocket voice APIs, Deepgram STT, ElevenLabs/OpenAI/Coqui TTS paths, turn control, interruption handling, and latency-aware session state.
-- **Cloud-native platforms** — Kubernetes, GitOps, CI/CD, Terraform, Ansible, container delivery, secure operational workflows.
-- **Reliability systems** — production readiness, observability, deployment safety, incident-aware tooling, and clear failure/recovery paths.
-- **Operator-grade product surfaces** — dashboards, workflow builders, control rooms, execution ledgers, and systems that show what is happening.
+- **Realtime voice AI** — custom WebSocket voice APIs, Deepgram STT, ElevenLabs/OpenAI/Coqui TTS paths, turn control, interruption handling, and latency aware session state.
+- **Cloud-native platforms** — Kubernetes, GitOps, CI and CD, Terraform, Ansible, container delivery, secure operational workflows.
+- **Reliability systems** — production readiness, observability, deployment safety, incident aware tooling, and clear failure/recovery paths.
+- **Operator grade product surfaces** — dashboards, workflow builders, control rooms, execution ledgers, and systems that show what is happening.
 
 ---
 
@@ -30,11 +30,11 @@ It models the infrastructure layer AI workflows need before touching real system
 
 A custom realtime voice API inside Hyper for low-latency AI voice workflows with pluggable STT, LLM, and TTS providers.
 
-It uses Deepgram streaming STT, Grok reasoning, ElevenLabs TTS, OpenAI TTS, Coqui TTS, native device speech modes, WebSocket sessions, Twilio MediaStreams, SIP trunking experiments, turn control, interruption handling, and latency-aware session state.
+It uses Deepgram streaming STT, Grok reasoning, ElevenLabs TTS, OpenAI TTS, Coqui TTS, native device speech modes, WebSocket sessions, Twilio MediaStreams, SIP trunking experiments, turn control, interruption handling, and latency aware session state.
 
 ### [mcp-ops-gateway](https://github.com/itsrobmack/mcp-ops-gateway)
 
-A production-style MCP gateway skeleton for governed AI agent tools, role and scope policy, approval gates, audit logs, and enterprise connector boundaries.
+A governed tool access gateway skeleton for AI agent tools, role and scope policy, approval gates, audit logs, and enterprise connector boundaries.
 
 It shows the layer between agent tool use and real company systems: connector ownership, access checks, high-risk review, and auditable execution.
 
@@ -77,7 +77,7 @@ Why it matters: production AI is not just prompts. It is permissions, state, rel
 
 ## Tools and systems
 
-`Kubernetes` · `GitOps` · `CI/CD` · `Linux` · `Terraform` · `Ansible` · `AWS` · `Bash` · `Python` · `Go` · `TypeScript` · `Bun` · `Bazel` · `Jenkins` · `Docker` · `PostgreSQL` · `Node.js` · `AI workflow orchestration` · `Realtime voice APIs` · `Deepgram` · `ElevenLabs` · `Twilio MediaStreams`
+`Kubernetes` · `GitOps` · `CI and CD` · `Linux` · `Terraform` · `Ansible` · `AWS` · `Bash` · `Python` · `Go` · `TypeScript` · `Bun` · `Bazel` · `Jenkins` · `Docker` · `PostgreSQL` · `Node.js` · `AI workflow orchestration` · `Realtime voice APIs` · `Deepgram` · `ElevenLabs` · `Twilio MediaStreams`
 
 ---
 
