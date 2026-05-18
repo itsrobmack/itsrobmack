@@ -30,6 +30,16 @@ Runtime proof is documented in the repo and covers low risk execution, high risk
 
 It also includes an operational eval harness that checks whether low risk runs complete, high risk runs pause for approval, approved runs resume correctly, and required audit events are present.
 
+### [realtime-voice-agent-gateway](https://github.com/itsrobmack/realtime-voice-agent-gateway)
+
+[![CI](https://github.com/itsrobmack/realtime-voice-agent-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/itsrobmack/realtime-voice-agent-gateway/actions/workflows/ci.yml)
+
+A Bun and TypeScript realtime voice agent gateway skeleton for streaming turn state, interruption handling, provider adapters, audit events, and runtime evals.
+
+It models the control layer around realtime voice AI: partial and final transcripts, agent response boundaries, streamed text to speech, user barge in, swappable STT and TTS providers, observable session state, and evals for voice runtime behavior.
+
+Runtime proof covers final transcript to speech, interruption during active speech, partial transcript behavior, API health, and eval endpoint behavior.
+
 ### [mcp-ops-gateway](https://github.com/itsrobmack/mcp-ops-gateway)
 
 [![CI](https://github.com/itsrobmack/mcp-ops-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/itsrobmack/mcp-ops-gateway/actions/workflows/ci.yml)
