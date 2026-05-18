@@ -32,7 +32,7 @@ It models the infrastructure layer AI workflows need before touching real system
 
 Runtime proof is documented in the repo and covers low risk execution, high risk approval pause, approval grant, and audit trail behavior.
 
-It also includes an operational eval harness that checks whether low risk runs complete, high risk runs pause for approval, approved runs resume correctly, and required audit events are present.
+It also includes an operational eval harness that checks low risk execution, medium risk planning, high risk approval pauses, approved execution, approval metadata, and required audit events.
 
 ### [realtime-voice-agent-gateway](https://github.com/itsrobmack/realtime-voice-agent-gateway)
 
@@ -42,7 +42,7 @@ A Bun and TypeScript realtime voice agent gateway skeleton for streaming turn st
 
 It models the control layer around realtime voice AI: partial and final transcripts, agent response boundaries, streamed text to speech, user barge in, swappable STT and TTS providers, observable session state, and evals for voice runtime behavior.
 
-Runtime proof covers final transcript to speech, interruption during active speech, partial transcript behavior, API health, and eval endpoint behavior.
+Runtime proof covers final transcript to speech, interruption during active speech, partial transcript behavior, multi-partial finalization, clean session ending, API health, and eval endpoint behavior.
 
 ### [mcp-ops-gateway](https://github.com/itsrobmack/mcp-ops-gateway)
 
@@ -52,7 +52,7 @@ A governed tool access gateway skeleton for AI agent tools, role and scope polic
 
 It shows the layer between agent tool use and real company systems: connector ownership, access checks, high risk review, policy reasons, and auditable execution.
 
-Runtime proof is documented in the repo and covers allowed connector requests, approval required connector requests, role checks, scope checks, and policy reasons.
+Runtime proof is documented in the repo and covers allowed connector requests, approval required connector requests, role checks, scope checks, policy reasons, audit trails, duplicate approval prevention, denied request handling, and unknown connector safety.
 
 ### [retrieval-context-gateway](https://github.com/itsrobmack/retrieval-context-gateway)
 
@@ -62,7 +62,7 @@ A Bun and TypeScript retrieval context gateway skeleton for permission aware con
 
 It models the retrieval layer production agents need before company knowledge enters a prompt: actor scopes, document policy, citation output, stale context warnings, no-context fallback, and audit events for filtered sources.
 
-Runtime evals cover scope filtering, allowed citation retrieval, stale context labels, citation output, and audit trail behavior.
+Runtime evals cover scope filtering, allowed citation retrieval, stale context labels, answer safety, no-context fallback, result caps, citation output, and audit trail behavior.
 
 ### Realtime voice AI systems
 
