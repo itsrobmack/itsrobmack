@@ -1,6 +1,6 @@
 # Rob McElvenny
 
-**Senior Platform Engineer focused on AI systems infrastructure, realtime voice AI, agent workflow infrastructure, Kubernetes, and production reliability.**
+**AI systems and platform engineer focused on agent infrastructure, realtime voice AI, governed tool access, workflow automation, Kubernetes, and production reliability.**
 
 I build the infrastructure layer between AI ideas and systems that real teams can operate.
 
@@ -10,39 +10,39 @@ Current focus: production grade AI infrastructure, realtime voice agents, human 
 
 ## What I build
 
-* **AI workflow infrastructure:** intent intake, tool execution, memory and context, review gates, approval paths, recoverable automation, and audit friendly run state.
-* **Realtime voice AI:** custom WebSocket voice APIs, Deepgram streaming STT, ElevenLabs TTS, OpenAI TTS, Coqui TTS, native speech modes, Twilio MediaStreams, SIP experiments, turn control, interruption handling, response locks, speech queues, tool confirmation guards, and latency aware session state.
+* **AI workflow infrastructure:** intent intake, tool execution, context handling, review gates, approval paths, recoverable automation, and audit friendly run state.
+* **Realtime voice AI:** WebSocket voice APIs, Deepgram streaming STT, ElevenLabs TTS, OpenAI TTS, Coqui TTS, Twilio MediaStreams, turn control, interruption handling, response locks, speech queues, tool confirmation guards, and latency aware session state.
+* **Governed agent systems:** connector boundaries, role checks, scope checks, approval gates, run logs, policy reasons, and human review before high risk actions.
 * **Cloud native platforms:** Kubernetes, GitOps, CI and CD, Terraform, Ansible, container delivery, secure operational workflows, and production support.
-* **Reliability systems:** production readiness, observability, deployment safety, incident aware tooling, failure visibility, and recovery paths.
 * **Operator grade product surfaces:** dashboards, workflow builders, control rooms, execution ledgers, and interfaces that show what the system is doing.
 
 ## Featured proof
 
 ### [agent-runner-control-plane](https://github.com/itsrobmack/agent-runner-control-plane)
 
+[![CI](https://github.com/itsrobmack/agent-runner-control-plane/actions/workflows/ci.yml/badge.svg)](https://github.com/itsrobmack/agent-runner-control-plane/actions/workflows/ci.yml)
+
 A Bun and TypeScript control plane skeleton for AI agent runs, tool calls, approval checkpoints, policy checks, run state, and audit logs.
 
 It models the infrastructure layer AI workflows need before touching real systems: tool registries, policy checks, high risk approval gates, auditable transitions, and reviewable execution.
 
-### Hyper realtime voice stack
-
-A custom realtime voice API inside Hyper for low latency AI voice workflows with a provider agnostic STT, LLM, and TTS stack.
-
-It uses Deepgram streaming STT, Grok based reasoning, ElevenLabs TTS, OpenAI TTS, Coqui TTS, native device speech modes, WebSocket sessions, Twilio MediaStreams, SIP trunking experiments, turn control, interruption handling, response locks, speech queues, tool confirmation guards, and latency aware session state.
+Runtime proof is documented in the repo and covers low risk execution, high risk approval pause, approval grant, and audit trail behavior.
 
 ### [mcp-ops-gateway](https://github.com/itsrobmack/mcp-ops-gateway)
 
+[![CI](https://github.com/itsrobmack/mcp-ops-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/itsrobmack/mcp-ops-gateway/actions/workflows/ci.yml)
+
 A governed tool access gateway skeleton for AI agent tools, role and scope policy, approval gates, audit logs, and enterprise connector boundaries.
 
-It shows the layer between agent tool use and real company systems: connector ownership, access checks, high risk review, and auditable execution.
+It shows the layer between agent tool use and real company systems: connector ownership, access checks, high risk review, policy reasons, and auditable execution.
 
-## Private flagship work
+Runtime proof is documented in the repo and covers allowed connector requests, approval required connector requests, role checks, scope checks, and policy reasons.
 
-I have also been building Hyper, a private AI systems runtime around event driven orchestration, durable mission graphs, memory routing, worker delegation, validation gates, repair loops, approvals, and evidence backed completion.
+### Realtime voice AI systems
 
-Core is PID1 of Hyper. PID2 is a simpler experimental AI agent harness. The public repos above are smaller inspectable slices of the same platform direction.
+I have built custom realtime voice systems with provider flexible STT, LLM, and TTS stacks.
 
-Why it matters: production AI is not just prompts. It is permissions, state, reliability, rollback, review, and operational visibility.
+Relevant pieces include Deepgram streaming STT, ElevenLabs TTS, OpenAI TTS, Coqui TTS, native device speech modes, WebSocket sessions, Twilio MediaStreams, SIP experiments, turn control, interruption handling, response locks, speech queues, confirmation guards, and latency aware session state.
 
 ## Current direction
 
@@ -51,6 +51,7 @@ Why it matters: production AI is not just prompts. It is permissions, state, rel
 * Realtime AI and voice infrastructure.
 * Internal AI platforms with human review and auditability.
 * Platform, SRE, and developer infrastructure for AI products.
+* AI workflow automation for real business operations.
 
 ## Strong fit
 
