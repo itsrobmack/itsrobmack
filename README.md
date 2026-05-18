@@ -28,6 +28,8 @@ It models the infrastructure layer AI workflows need before touching real system
 
 Runtime proof is documented in the repo and covers low risk execution, high risk approval pause, approval grant, and audit trail behavior.
 
+It also includes an operational eval harness that checks whether low risk runs complete, high risk runs pause for approval, approved runs resume correctly, and required audit events are present.
+
 ### [mcp-ops-gateway](https://github.com/itsrobmack/mcp-ops-gateway)
 
 [![CI](https://github.com/itsrobmack/mcp-ops-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/itsrobmack/mcp-ops-gateway/actions/workflows/ci.yml)
