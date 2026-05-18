@@ -54,6 +54,16 @@ It shows the layer between agent tool use and real company systems: connector ow
 
 Runtime proof is documented in the repo and covers allowed connector requests, approval required connector requests, role checks, scope checks, and policy reasons.
 
+### [retrieval-context-gateway](https://github.com/itsrobmack/retrieval-context-gateway)
+
+[![CI](https://github.com/itsrobmack/retrieval-context-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/itsrobmack/retrieval-context-gateway/actions/workflows/ci.yml)
+
+A Bun and TypeScript retrieval context gateway skeleton for permission aware context assembly, citations, freshness labels, audit events, and runtime evals.
+
+It models the retrieval layer production agents need before company knowledge enters a prompt: actor scopes, document policy, citation output, stale context warnings, no-context fallback, and audit events for filtered sources.
+
+Runtime evals cover scope filtering, allowed citation retrieval, stale context labels, citation output, and audit trail behavior.
+
 ### Realtime voice AI systems
 
 I have built custom realtime voice systems with provider flexible STT, LLM, and TTS stacks.
@@ -64,6 +74,7 @@ Relevant pieces include Deepgram streaming STT, ElevenLabs TTS, OpenAI TTS, Coqu
 
 * Remote Senior or Staff AI platform engineering.
 * Agent infrastructure and workflow systems.
+* Retrieval and context engineering for production agents.
 * Realtime AI and voice infrastructure.
 * Internal AI platforms with human review and auditability.
 * Platform, SRE, and developer infrastructure for AI products.
@@ -82,7 +93,7 @@ Relevant pieces include Deepgram streaming STT, ElevenLabs TTS, OpenAI TTS, Coqu
 
 ## Tools and systems
 
-`Kubernetes` · `GitOps` · `CI and CD` · `Linux` · `Terraform` · `Ansible` · `AWS` · `Bash` · `Python` · `Go` · `TypeScript` · `Bun` · `Bazel` · `Jenkins` · `Docker` · `PostgreSQL` · `Redis` · `WebSockets` · `AI workflow orchestration` · `Realtime voice APIs` · `Deepgram` · `ElevenLabs` · `OpenAI TTS` · `Coqui TTS` · `Twilio MediaStreams`
+`Kubernetes` · `GitOps` · `CI and CD` · `Linux` · `Terraform` · `Ansible` · `AWS` · `Bash` · `Python` · `Go` · `TypeScript` · `Bun` · `Bazel` · `Jenkins` · `Docker` · `PostgreSQL` · `Redis` · `WebSockets` · `Retrieval` · `Context engineering` · `AI workflow orchestration` · `Realtime voice APIs` · `Deepgram` · `ElevenLabs` · `OpenAI TTS` · `Coqui TTS` · `Twilio MediaStreams`
 
 ## Operating principles
 
