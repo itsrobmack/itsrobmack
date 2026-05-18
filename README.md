@@ -1,22 +1,26 @@
 # Rob McElvenny
 
-**AI systems and platform engineer focused on agent infrastructure, realtime voice AI, governed tool access, workflow automation, Kubernetes, and production reliability.**
+**AI systems and platform engineer focused on agent infrastructure, realtime voice AI, governed tool access, evals, workflow orchestration, and production reliability.**
 
 I build the infrastructure layer between AI ideas and systems that real teams can operate.
 
-My background spans defense, autonomous vehicle, government adjacent, and cybersecurity environments where secure delivery, traceability, uptime, and operational clarity mattered.
+My background spans defense, autonomous vehicle, cybersecurity, and production software environments where secure delivery, traceability, uptime, and operational clarity mattered.
 
-Current focus: production grade AI infrastructure, realtime voice agents, human reviewed automation, governed tool access, agent workflow systems, and platform tooling that makes AI useful outside of demos.
+Current focus: production shaped AI infrastructure, realtime voice agents, human reviewed automation, governed tool access, evals, retrieval flows, agent workflow systems, and platform tooling that makes AI useful outside of demos.
+
+Public proof index: [skewuo.com/proof](https://skewuo.com/proof)
 
 ## What I build
 
-* **AI workflow infrastructure:** intent intake, tool execution, context handling, review gates, approval paths, recoverable automation, and audit friendly run state.
+* **AI workflow infrastructure:** intent intake, tool execution, context handling, review gates, approval paths, eval hooks, recoverable automation, and audit friendly run state.
 * **Realtime voice AI:** WebSocket voice APIs, Deepgram streaming STT, ElevenLabs TTS, OpenAI TTS, Coqui TTS, Twilio MediaStreams, turn control, interruption handling, response locks, speech queues, tool confirmation guards, and latency aware session state.
 * **Governed agent systems:** connector boundaries, role checks, scope checks, approval gates, run logs, policy reasons, and human review before high risk actions.
 * **Cloud native platforms:** Kubernetes, GitOps, CI and CD, Terraform, Ansible, container delivery, secure operational workflows, and production support.
 * **Operator grade product surfaces:** dashboards, workflow builders, control rooms, execution ledgers, and interfaces that show what the system is doing.
 
 ## Featured proof
+
+These are public proof repos. They are meant to show how I think about AI systems, control layers, runtime state, review gates, evals, and operational visibility.
 
 ### [agent-runner-control-plane](https://github.com/itsrobmack/agent-runner-control-plane)
 
@@ -58,7 +62,7 @@ Relevant pieces include Deepgram streaming STT, ElevenLabs TTS, OpenAI TTS, Coqu
 
 ## Current direction
 
-* Remote senior or staff AI platform engineering.
+* Remote Senior or Staff AI platform engineering.
 * Agent infrastructure and workflow systems.
 * Realtime AI and voice infrastructure.
 * Internal AI platforms with human review and auditability.
@@ -90,6 +94,7 @@ Relevant pieces include Deepgram streaming STT, ElevenLabs TTS, OpenAI TTS, Coqu
 
 ## Links
 
+* Proof index: [skewuo.com/proof](https://skewuo.com/proof)
 * Portfolio: [skewuo.com](https://skewuo.com)
 * LinkedIn: [linkedin.com/in/heyrobbb](https://www.linkedin.com/in/heyrobbb)
 * X: [@skewuo](https://x.com/skewuo)
